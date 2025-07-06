@@ -1,6 +1,6 @@
 ## Grade-Management-System
 
-⸻
+
 
 
 📌 Project Overview
@@ -20,34 +20,32 @@ The Student Grade Management System is a console-based C application designed fo
 	•	Search student data by ID.
 	•	Update grades and GPA by ID or name.
 
-📂 Data Persistence
+## Data Persistence
 	•	Save/load records using structured CSV files.
 	•	Auto-handling of headers and formatting.
 
-🔃 Sorting
+## Sorting
 	•	Sort student list by:
 	•	ID
 	•	Name
 	•	GPA
 	•	Efficient in-place QuickSort on a linked list.
 
-📊 Visualization
+## Visualization
 	•	Bar chart for:
 	•	GPA distribution of all students.
 	•	Subject-wise grades of a selected student.
 
-⸻
 
-💻 Technologies Used
+## Technologies Used
 	•	Language: C
 	•	Data Structures: Structs, Arrays, Linked Lists
 	•	File Handling: CSV Read/Write
 	•	Sorting: Recursive QuickSort (in-place)
 	•	Memory Management: malloc, free with Valgrind validation
 
-⸻
 
-🚀 How to Compile & Run
+## How to Compile & Run
 	1.	Ensure main.c, student.c, and student.h are in the same directory.
 	2.	Compile using:
 
@@ -60,9 +58,9 @@ gcc main.c student.c -o output
 
 
 
-⸻
 
-📋 Menu Options
+
+##  Menu Options
 	1.	Add a Student
 	2.	Display All Students
 	3.	Save and Exit
@@ -73,16 +71,16 @@ gcc main.c student.c -o output
 	8.	Update GPA – by Name
 	9.	Remove a Student
 
-⸻
 
-✅ Input Validation
+
+## Input Validation
 	•	Valid 7-digit unique Student IDs
 	•	Grades must be between 0 and 100
 	•	No duplicate entries allowed
 
-⸻
 
-🧪 Testing & Debugging
+
+## Testing & Debugging
 	•	Edge Cases:
 	•	Empty records
 	•	Corrupted CSV files
@@ -90,24 +88,24 @@ gcc main.c student.c -o output
 	•	Memory:
 	•	Verified with Valgrind to ensure no leaks
 
-⸻
 
-🧠 Challenges & Lessons Learned
+
+## Challenges & Lessons Learned
 	•	Implementing QuickSort for linked lists
 	•	Managing dynamic memory and avoiding leaks
 	•	Parsing edge cases in CSV files
 
-⸻
 
-🔮 Future Improvements
+
+## Future Improvements
 	•	GUI or Web-based interface
 	•	Error recovery for corrupted files
 	•	User roles and login systems
 	•	Data encryption for privacy
 
-⸻
 
-📌 Conclusion
+
+## Conclusion
 
 The project successfully demonstrates fundamental and advanced C programming concepts. It is a reliable system for student academic management with structured data handling, visual feedback, and safe memory practices.
 
