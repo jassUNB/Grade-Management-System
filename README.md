@@ -12,9 +12,9 @@ The Student Grade Management System is a console-based C application designed fo
 🧩 Features
 
 🎓 Student Record Management
-	•	Add students with validated 7-digit unique IDs.
-	•	Store names and grades for 5 subjects.
-	•	Automatic GPA calculation upon entry.
+	-  Add students with validated 7-digit unique IDs.
+	-	Store names and grades for 5 subjects.
+	-	Automatic GPA calculation upon entry.
 
 🔍 Search & Update
 	•	Search student data by ID.
